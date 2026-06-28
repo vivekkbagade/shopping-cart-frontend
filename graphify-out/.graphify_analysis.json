@@ -1,0 +1,101 @@
+{
+  "communities": {
+    "0": [
+      "services_api",
+      "services_api_addtocart",
+      "services_api_fetchproducts",
+      "services_api_removefromcart",
+      "src_app"
+    ],
+    "1": [
+      "services_api_fetchcart",
+      "src_app_app",
+      "src_main"
+    ],
+    "2": [
+      "vite_config"
+    ]
+  },
+  "cohesion": {
+    "0": 0.7,
+    "1": 0.6666666666666666,
+    "2": 1.0
+  },
+  "gods": [
+    {
+      "id": "src_app_app",
+      "label": "App()",
+      "degree": 6
+    },
+    {
+      "id": "services_api_fetchproducts",
+      "label": "fetchProducts()",
+      "degree": 3
+    },
+    {
+      "id": "services_api_fetchcart",
+      "label": "fetchCart()",
+      "degree": 3
+    },
+    {
+      "id": "services_api_addtocart",
+      "label": "addToCart()",
+      "degree": 3
+    },
+    {
+      "id": "services_api_removefromcart",
+      "label": "removeFromCart()",
+      "degree": 3
+    }
+  ],
+  "surprises": [
+    {
+      "source": "App()",
+      "target": "addToCart()",
+      "source_files": [
+        "src/App.jsx",
+        "src/services/api.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "App()",
+      "target": "fetchProducts()",
+      "source_files": [
+        "src/App.jsx",
+        "src/services/api.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "App()",
+      "target": "removeFromCart()",
+      "source_files": [
+        "src/App.jsx",
+        "src/services/api.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "App()",
+      "target": "fetchCart()",
+      "source_files": [
+        "src/App.jsx",
+        "src/services/api.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

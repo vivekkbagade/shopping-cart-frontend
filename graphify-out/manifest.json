@@ -1,0 +1,22 @@
+{
+  "src/App.jsx": {
+    "mtime": 1782668332.0363743,
+    "ast_hash": "07fb3be27c021ef14aa480ac9fa10676",
+    "semantic_hash": "07fb3be27c021ef14aa480ac9fa10676"
+  },
+  "src/main.jsx": {
+    "mtime": 1782668290.012455,
+    "ast_hash": "e13723e2574429d9a6d849727e3ff695",
+    "semantic_hash": "e13723e2574429d9a6d849727e3ff695"
+  },
+  "src/services/api.js": {
+    "mtime": 1782668317.9211466,
+    "ast_hash": "6b1bd8463df097db65fb22b105d8a057",
+    "semantic_hash": "6b1bd8463df097db65fb22b105d8a057"
+  },
+  "vite.config.js": {
+    "mtime": 1782668289.8952513,
+    "ast_hash": "88439104b3c207f17d33ef3160e3b080",
+    "semantic_hash": "88439104b3c207f17d33ef3160e3b080"
+  }
+}
